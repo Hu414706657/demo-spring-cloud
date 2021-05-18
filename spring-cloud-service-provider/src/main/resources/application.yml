@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-service-provider
+
+server:
+  port: 8762
+
+eureka:
+  instance:
+#    instance-id: testid
+#    appname: test1
+  client:
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/
+
