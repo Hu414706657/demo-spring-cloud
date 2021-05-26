@@ -1,7 +1,7 @@
-package com.example.spring.cloud.provider.ribbon.controller;
+package com.example.spring.cloud.consumer.ribbon.controller;
 
 
-import com.example.spring.cloud.provider.ribbon.service.DemoService;
+import com.example.spring.cloud.consumer.ribbon.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

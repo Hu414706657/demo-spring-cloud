@@ -1,4 +1,4 @@
-package com.example.spring.cloud.provider.ribbon.config;
+package com.example.spring.cloud.consumer.ribbon.config;
 
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

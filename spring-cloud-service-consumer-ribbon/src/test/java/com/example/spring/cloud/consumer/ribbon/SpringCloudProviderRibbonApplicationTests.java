@@ -1,4 +1,4 @@
-package com.example.spring.cloud.provider.ribbon;
+package com.example.spring.cloud.consumer.ribbon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
