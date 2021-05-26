@@ -1,7 +1,7 @@
-package com.example.spring.cloud.provider.controller;
+package com.example.spring.cloud.provider.ribbon.controller;
 
 
-import com.example.spring.cloud.provider.service.DemoService;
+import com.example.spring.cloud.provider.ribbon.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,6 +27,7 @@ public class ProviderController {
     @RequestMapping(value = "/getHi", method = RequestMethod.GET)
     public String providerController(@RequestParam(value = "message") String message) {
         return service.demo(message);
-
     }
+
+
 }
