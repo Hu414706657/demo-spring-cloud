@@ -1,4 +1,4 @@
-package com.example.spring.cloud.service;
+package com.example.spring.cloud.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

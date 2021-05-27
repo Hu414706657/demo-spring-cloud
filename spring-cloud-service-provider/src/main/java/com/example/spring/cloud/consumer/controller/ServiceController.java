@@ -1,4 +1,4 @@
-package com.example.spring.cloud.service.controller;
+package com.example.spring.cloud.consumer.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;
