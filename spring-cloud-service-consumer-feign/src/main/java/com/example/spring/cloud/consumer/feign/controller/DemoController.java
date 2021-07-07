@@ -19,9 +19,14 @@ public class DemoController {
     @Autowired
     private DemoService service;
 
+//    @HystrixCommand(fallbackMethod = "hiError")
     @RequestMapping(value = "hi", method = RequestMethod.GET)
     public String sayHi(@RequestParam(value = "message") String message) {
         return service.sayHi(message);
+    }
+
+    public String hiError(String message){
+        return "faile";
     }
 
 }
